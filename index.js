@@ -1,27 +1,3 @@
-function show_flow() {
-    $(document).ready(function () {
-        $('.flow').click(function () {
-            $('.flowplane').show(500);
-        });
-        $('.flowcancel').click(function () {
-            $('.flowplane').hide(500);
-        });
-
-    })
-}
-
-function show_principle() {
-    $(document).ready(function () {
-        $('.principle').click(function () {
-            $('.principleplane').show(500);
-        });
-        $('.principlecancel').click(function () {
-            $('.principleplane').hide(500);
-        });
-
-    })
-}
-
 function show_gallery() {
     let len = students.length;
     //--------------------------------
@@ -33,7 +9,7 @@ function show_gallery() {
     let html_container = "<div class='cointer-fluid'>";
     let html_front = "<div class='gallery ";
     let html_middle1 = "'><div class='front'><a target='_blank' href='yzu";
-    let html_middle2 = ".gif'><img class='ab' src='yzu";
+    let html_middle2 = ".gif'><img src='yzu";
     let html_middle3 =
         ".gif' alt='Cinque Terre' width='600' height='400'></div><div class='back'><button type='button' class='btn btn-primary'>";
     let html_end = "</button></div></a></div></div>";
